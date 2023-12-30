@@ -1,0 +1,38 @@
+1. Initialize Git Repository:
+git init
+
+2. Clone Remote Repository:
+git clone <repository-url>
+
+3. Stage All Changes:
+git add .
+
+4. View State of Working Directory and Staging Area:
+git status
+
+6. Create New Branch:
+git branch <branch-name>
+
+7. Change Branch:
+git checkout <branch-name>
+
+8. Clean Staging Area:
+git reset
+
+9. Get Commits and Changes from Remote Branch (No Merge):
+git fetch origin <remote-branch>
+
+10. Get Commits and Changes from Remote Branch (Merge):
+git pull origin <remote-branch>
+
+11. Cherry Pick Commit:
+git cherry-pick 092018283103810930
+
+12. Push Branch:
+git push origin <branch-name>
+
+13. Delete Remote Branch:
+git push origin --delete <branch-name>
+
+14. Iterative Rebase:
+git rebase -i HEAD~<number-of-commits>
